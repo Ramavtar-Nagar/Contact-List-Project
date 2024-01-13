@@ -1,3 +1,85 @@
+
+# Contact List
+
+It is a contact list project using react.
+
+I made this project using React.js which is a popular frontend development framework.
+
+In this project we fetches contacts from an API and display them on homepage.
+
+We can also edit and delete any contact from the list in case if we want to do that.
+
+We are also allowed to add new contacts to the list.
+## Languages Used
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+
+Used for the basic and good looking styling of the project so that the project looks good and appealing.
+
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+
+For the structure and for the entry point DIV with id named as "root".
+
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+
+For making different components and implementing all the functionalities of the project.
+
+![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
+
+Used for initializing store, reducers and actions etc.
+
+![React](https://img.shields.io/badge/hook-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+
+For using different react hooks.
+
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+
+For the purpose of routing and using routes in the project.
+## Deployment
+
+I had hosted the project live on -
+![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
+
+[Hosted Link](https://classy-gumption-7e45c3.netlify.app)
+
+
+## E-mail Address
+
+[![MIT gmeil](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](https://choosealicense.com/licenses/mit/)
+
+[My Gmail ID](ramavtarnagar13@gmail.com)
+
+
+
+
+
+## 🔗 My Socials
+
+![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white) 
+
+https://www.linkedin.com/in/ramavtar-nagar-a942a4216?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+
+![X](https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=X&logoColor=white)
+
+https://x.com/Ramavta60509861?t=7nTCY6zozQfNJs5uYGFyTQ&s=09
+
+
+
+
+## API Reference
+
+#### Get all items
+
+```http
+  GET /api/items
+```
+
+| Parameter | Type     | API Address                |
+| :-------- | :------- | :------------------------- |
+| `API Key` | `string` | https://jsonplaceholder.typicode.com/users/ |
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
