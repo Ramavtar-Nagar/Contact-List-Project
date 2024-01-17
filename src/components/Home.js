@@ -39,7 +39,7 @@ export default function Home() {
                                         <td>{contact.email}</td>
                                         <td>{contact.number}</td>
                                         <td>
-                                            <Link to={`/edit/${contact.id}`} className='btn btn-small btn-dark me-2'>Edit</Link>
+                                            <Link to={`/edit/${contact.id}`} className='btn btn-small btn-dark me-3'>Edit</Link>
                                             <button type='button' onClick={() => deleteContact(contact.id)} className='btn btn-small btn-success'>Delete</button>
                                         </td>
                                     </tr>
