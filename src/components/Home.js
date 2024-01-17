@@ -20,8 +20,8 @@ export default function Home() {
                     <Link to='/add' className='btn btn-outline-dark'>Add Contact</Link>
                 </div>
                 <div className='col-md-10 mx auto'>
-                    <table className='table table-hover'>
-                        <thead className='text-white bg-dark text-center'>
+                    <table className='table table-bordered border-dark'>
+                        <thead className='text-white bg-dark text-center table-dark'>
                             <tr>
                                 <th scope='col'>#</th>
                                 <th scope='col'>Name</th>
@@ -39,8 +39,8 @@ export default function Home() {
                                         <td>{contact.email}</td>
                                         <td>{contact.number}</td>
                                         <td>
-                                            <Link to={`/edit/${contact.id}`} className='btn btn-small btn-primary me-2'>Edit</Link>
-                                            <button type='button' onClick={() => deleteContact(contact.id)} className='btn btn-small btn-danger'>Delete</button>
+                                            <Link to={`/edit/${contact.id}`} className='btn btn-small btn-dark me-2'>Edit</Link>
+                                            <button type='button' onClick={() => deleteContact(contact.id)} className='btn btn-small btn-success'>Delete</button>
                                         </td>
                                     </tr>
                                 ))
